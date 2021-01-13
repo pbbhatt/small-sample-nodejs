@@ -2,9 +2,20 @@
   "name": "nodejsapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "should": "^13.2.3",
+    "supertest": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "echo "Error: no test specified" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,13 +27,5 @@
   "bugs": {
     "url": "https://github.com/pbbhatt/small-sample-nodejs/issues"
   },
-  "homepage": "https://github.com/pbbhatt/small-sample-nodejs#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "mocha": "^8.2.1",
-    "should": "^13.2.3",
-    "supertest": "^6.0.1"
-  }
+  "homepage": "https://github.com/pbbhatt/small-sample-nodejs#readme"
 }

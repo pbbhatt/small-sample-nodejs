@@ -18,8 +18,8 @@ var should = require("should");
                          .expect(200) // THis is HTTP response
                              .end(function(err,res){
 //                                   // HTTP status should be 200
-//                                         res.status.should.equal(200);
-                                         expect(res,status).to.equal(200);
+                                         res.status.should.equal(200);
+//                                         expect(res,status).to.equal(200);
                                                done();
                                                    });
                                                      });
